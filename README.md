@@ -18,5 +18,12 @@ Unbalanced dataset consists of 1681 sport images
 Read all images in RGB format <br>
 Resize all images to fixed size 64x64 <br>
 Apply data agumentation by flip horizontal to balance dataset so, each class has 458 images <br>
+Split dataset into 75% train & 25% test <br>
+## Models
+* CNN
+* Inception
+## Test Script
+Load wieghts of the model and use it to predict the label of test image.
+
 
 
